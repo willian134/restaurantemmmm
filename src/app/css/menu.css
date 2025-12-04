@@ -1,0 +1,107 @@
+header {
+    content: normal;
+    width: 150%;
+    display: flex;
+    justify-content: right;
+    padding: 30px 0px;
+    background: #f4a300;
+    color: #111;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav .signup {
+    padding: 8px 14px;
+    border: 2px solid #111;
+    border-radius: 6px;
+}
+
+body {
+    background: #f5e4b3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-container {
+    background: #ffeebe;
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 12px;
+    color: #c47900;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.categoria {
+    margin-top: 25px;
+    border-top: 2px dashed #c49a41;
+    padding-top: 20px;
+}
+
+.categoria-titulo {
+    background: #ffbf47;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.img-categoria {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.dos-imagenes img {
+    width: 48%;
+    border-radius: 10px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.lista li {
+    font-size: 16px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}

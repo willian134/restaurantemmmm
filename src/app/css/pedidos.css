@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #f9c300;
+}
+.container {
+    padding: 15px;
+}
+
+/* CATEGORÍAS */
+.categorias {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.cat {
+    border: none;
+    background: #eaeaea;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.cat.active {
+    background: #4cd137;
+    color: white;
+}
+
+/* BUSCADOR */
+.buscador {
+    position: relative;
+    margin: 15px 0;
+}
+
+.buscador input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.icon-search {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 18px;
+    color: #777;
+}
+
+/* SECCIÓN */
+.seccion-titulo {
+    color: #27ae60;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* ITEMS DE COMIDA */
+.item {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info p {
+    margin: 3px 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.precio-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-add {
+    background: #2ecc71;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-add:hover {
+    background: #27ae60;
+}

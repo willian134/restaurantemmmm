@@ -1,0 +1,155 @@
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #f9c300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    background-image: url("https://i.imgur.com/M6hipF9.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #f0f0f0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #f3c136;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #d9a730;
+}
+
+/* SOBRE NOSOTROS */
+.sobre {
+    padding: 60px 10%;
+    background: #fff;
+}
+
+.sobre-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.sobre img {
+    width: 45%;
+    border-radius: 12px;
+}
+
+.sobre .texto {
+    width: 50%;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* NUESTRA COCINA */
+.cocina {
+    padding: 60px 10%;
+    background: #f8f1d4;
+}
+
+.cocina-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.cocina img {
+    width: 45%;
+    border-radius: 12px;
+}
+
+.cocina h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.cocina p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .sobre img, .cocina img, 
+    .sobre .texto, .cocina .texto {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
